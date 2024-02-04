@@ -8,8 +8,8 @@
     "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
     "test": "cypress run",
     "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js",
-    "test:cloud": "cypress run --record --key 064d964e-11bd-4096-b873-659c5e94953e --tag 'desktop'",
-    "test:tablet:cloud": "cypress run --record --key 064d964e-11bd-4096-b873-659c5e94953e --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js",
+    "test:cloud": "cypress run --record --key --tag 'desktop'",
+    "test:tablet:cloud": "cypress run --record --key --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
     "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix"
   },
@@ -18,7 +18,6 @@
   "license": "MIT",
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
-    "cypress": "^13.6.0",
     "cypress-iframe": "^1.0.1",
     "cypress-mailosaur": "^2.13.0",
     "eslint": "^8.43.0",
@@ -26,6 +25,6 @@
     "eslint-plugin-react": "^7.33.2"
   },
   "dependencies": {
-    "@types/cypress": "^1.1.3"
+    "cypress": "^12.15.0"
   }
 }
