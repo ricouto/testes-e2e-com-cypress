@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Scenarios where authentication is a pre-condition', () => {

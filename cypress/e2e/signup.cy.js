@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Sign up', () => {
