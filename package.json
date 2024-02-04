@@ -1,7 +1,7 @@
 {
   "name": "testes-e2e-com-cypress",
-  "version": "1.3.0",
-  "description": "TBD.",
+  "version": "2.0.0",
+  "description": "Sample project to demonstrate e2e tests written with Cypress running on GitHub Actions",
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
